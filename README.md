@@ -1,6 +1,6 @@
 # Roblox in-game promote command
 
-This code will allow you to promote people directly from within your, all through a simple command
+This code will allow you to promote people directly from within your roblox game, all through a simple command
 
 ## Note: For this to work, you need your own domain!
 
