@@ -2,7 +2,7 @@
   "name": "ranking_api",
   "version": "1.0.0",
   "description": "ranking api for roblox",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
