@@ -10,7 +10,7 @@ router.post("/promote", async (req, res) => {
     const authHeader = req.headers.authorization;
     if (authHeader !== process.env.APIKEY) {
         const clientIP = req.headers['x-forwarded-for'] 
-        console.log(`❗| Unauthorized request from ${clientIP}`);
+        console.log(`❗ | Unauthorized request from ${clientIP}`);
         return res.status(401).json({ success: false, message: "Unauthorized" });
     }
 
